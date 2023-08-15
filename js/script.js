@@ -1,0 +1,17 @@
+var swiper = new Swiper(".mySwiper", {
+    // effect: "coverflow",
+    grabCursor: true,
+    centeredSlides:true,
+    slidesPerView:"2",
+    coverflowEffect: {
+        rotate:15,
+        strech:0,
+        depth:300,
+        modifier:1,
+        slideShadows:true,
+    },
+    pagination:true,
+    paginationClickable:true,
+    spaceBetween:"30",
+    loop:true,
+});
