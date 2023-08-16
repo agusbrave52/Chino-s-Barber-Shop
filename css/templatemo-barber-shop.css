@@ -449,7 +449,7 @@ strong {
   bottom: 0;
   right: 0;
   left: 0;
-  margin: 10px 40px;
+  margin: 10px 20px 10px 0px;
   padding: 10px 17px 10px 20px;
   transition: all 0.3s ease;
 }
@@ -515,6 +515,7 @@ strong {
   font-size: var(--copyright-font-size);
   margin-left: auto;
   padding: 5px 10px;
+  color: #ffefd2;
 }
 
 .services-info {
@@ -532,6 +533,12 @@ strong {
 
 .services-info h4 {
   color: var(--white-color);
+}
+
+.texto-servicio{
+  background-color: #000000a7;
+  border-radius: 150px;
+  padding: 5px 10px 10px 10px;
 }
 
 
@@ -845,7 +852,47 @@ strong {
   .booking-form {
     padding: 35px;
   }
+
+  .team-info {
+    background: #ffefd28e;
+    border-radius: var(--border-radius-large);
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: 10px 5px 10px 30px;
+    padding: 8px 0px 10px 20px;
+    transition: all 0.3s ease;
+  }
+
+  .social-icon-item {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+  }
 }
+
+@media screen and (max-width: 360px){
+  .team-info {
+    background: #ffefd28e;
+    border-radius: var(--border-radius-large);
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: 10px 5px 10px 30px;
+    padding: 8px 0px 10px 20px;
+    transition: all 0.3s ease;
+  }
+
+  .social-icon-item {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    transform: scale(0.9,0.9);
+  }
+}
+
 .swiper{
   width: 100%;
 }
